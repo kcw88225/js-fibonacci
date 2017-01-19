@@ -1,0 +1,31 @@
+{
+  "name": "fibonacci-with-bigint",
+  "description": "fibonacci playground",
+  "main": [
+    "scripts/fibonacci.js"
+  ],
+  "license": "Kelvin Kong",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "bower_components",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.4",
+    "BigInteger": "https://github.com/peterolson/BigInteger.js.git#^1.6.0"
+  },
+  "keywords": [
+    "fibonacci",
+    "bigint"
+  ],
+  "authors": [
+    "Kelvin Kong <kcw88225@gmail.com>"
+  ],
+  "private": true
+}
