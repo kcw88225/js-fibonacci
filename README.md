@@ -2,6 +2,9 @@
 
 Fibonacci playground
 
+## Installation
+- run `bower install`
+
 ## Dependencies:
 - jQuery
 - BigInteger
