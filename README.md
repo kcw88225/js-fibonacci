@@ -1,13 +1,18 @@
 # Fibonacci JS
 
-Fibonacci playground
+Fibonacci puzzle with javascript
 
-## Installation
+## Quick Start
 - run `bower install`
 
 ## Dependencies:
 - jQuery
 - BigInteger
+
+## Dev dependencies (for testing):
+- jasmine
+- gulp-jasmine-browser
+- phantomjs
 
 ## Examples:
 ```javascript

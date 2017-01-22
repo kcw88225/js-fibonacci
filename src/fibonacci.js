@@ -1,5 +1,6 @@
 (function (root, $) {
     'use strict';
+    
     var fibonacci = {},
         internal = {
             cache: {}
