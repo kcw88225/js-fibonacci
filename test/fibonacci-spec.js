@@ -22,7 +22,7 @@ describe('fibonacci function "process"', function(){
         expect(result).toEqual(bigInt('354224848179261915075'));
     });
 
-    it('should NOT return Infinity when it handles result integer greater than 64bit', function(){
+    it('should NOT return Infinity when it handles result integer that exceeds limit of a floating point number', function(){
         var input = 10000,
             result = fibonacci.process(input);
         
