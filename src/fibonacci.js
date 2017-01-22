@@ -1,4 +1,4 @@
-(function (root, $) {
+(function (root, $, bigInt) {
     'use strict';
     
     var fibonacci = {},
@@ -43,4 +43,4 @@
     }
 
     root.fibonacci = fibonacci;
-})(window, jQuery);
+})(window, jQuery, bigInt);
