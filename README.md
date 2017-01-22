@@ -3,6 +3,7 @@
 Fibonacci puzzle with javascript
 
 ## Quick Start
+- run `npm install`
 - run `bower install`
 
 ## Dependencies:
